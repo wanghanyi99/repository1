@@ -1,0 +1,66 @@
+<div class="container">
+				<header>
+						<ul class="iconfont">
+							<li>&#xe745;</li>
+							<li>
+									<span class="active">热点</span>
+									<span>关注</span>
+							</li>
+							<li>&#xe684;</li>
+						</ul>
+				</header>
+				<nav id="nav">
+						<ul>
+							<li class="active">足球现场</li>
+							<li>足球生活</li>
+							<li>足球美女</li>
+						</ul>
+				</nav>
+				<article>
+					<div class="swiper-container" id="main-swiper">
+					  	<div class="swiper-wrapper">
+						    <div class="swiper-slide">
+						    	<section spa-widget="scroll">
+										
+										<ul >
+											<li ms-repeat-item="list">
+													<img ms-src="item.image"/>
+													<b ms-text="item.title"></b>
+											</li>
+										</ul>
+										
+								</section>
+						    </div>
+						    <div class="swiper-slide">
+						    	足球生活
+						    </div>
+						    <div class="swiper-slide">
+						    	足球美女
+						    </div>
+					 	</div>
+					</div>
+				</article>
+				<footer>
+						<ul class="iconfont">
+							<li class="active">
+									<i>&#xe6bb;</i>
+									<b>首页</b>
+							</li>
+							<li>
+									<i>&#xe65c;</i>
+									<b>发现</b>
+							</li>
+							<li>
+									<i>&#xe664;</i>
+							</li>
+							<li>
+									<i>&#xe735;</i>
+									<b>我的</b>
+							</li>
+							<li action-type="exit">
+									<i>&#xe603;</i>
+									<b>退出</b>
+							</li>
+						</ul>
+				</footer>
+		</div>
